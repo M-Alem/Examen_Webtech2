@@ -25,7 +25,7 @@ app.config(function($routeProvider) {
 		})
 	}])
 	
-	app.controller('actorCtrl', ['$scope', function($scope) {}])
+	app.controller('actorCtrl', ['$scope', function($scope) {}]);
 	
 	
 	 app.service('filmSrv', function($http, $q) {
@@ -38,7 +38,7 @@ app.config(function($routeProvider) {
 	                 if (movies[j].name === actor.name) {
 	                     list.push(movie[j]);
 	                 }
-	            }*/
+	            }
 	            return list;
 	    	}]
 
